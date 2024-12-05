@@ -1,0 +1,25 @@
+<!-- Finlogix Widget BEGIN-->
+<div class="finlogix-container"></div>
+<script type="text/javascript" src="https://widget.finlogix.com/Widget.js"></script>
+<script type="text/javascript">
+		Widget.init({
+				widgetId: "3e137d3a-8025-42c7-a694-00a07b0f79d7",
+				type: "EarningCalendar",
+				language: "en",
+				importanceOptions: [
+								"low",
+								"medium",
+								"high"
+				],
+				dateRangeOptions: [
+								"recentAndNext",
+								"today",
+								"tomorrow",
+								"thisWeek",
+								"nextWeek",
+								"thisMonth"
+				],
+				isAdaptive: true
+		});
+</script>
+<!-- Finlogix Widget END-->
