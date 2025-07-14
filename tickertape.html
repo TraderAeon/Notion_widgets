@@ -1,9 +1,22 @@
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
   {
   "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500 Index"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "US 100 Cash CFD"
+    },
+    {
+      "proName": "FX_IDC:EURUSD",
+      "title": "EUR to USD"
+    },
     {
       "proName": "BITSTAMP:BTCUSD",
       "title": "Bitcoin"
@@ -13,55 +26,20 @@
       "title": "Ethereum"
     },
     {
-      "description": "Nasdaq",
-      "proName": "CME_MINI:NQ1!"
+      "proName": "OANDA:XAUUSD",
+      "title": "Gold"
     },
     {
-      "description": "S&P500",
-      "proName": "CME_MINI:ES1!"
-    },
-    {
-      "description": "EUR/USD",
-      "proName": "FX:EURUSD"
-    },
-    {
-      "description": "Dow",
-      "proName": "CBOT_MINI:YM1!"
-    },
-    {
-      "description": "US Treasury Bonds",
-      "proName": "CBOT:ZB1!"
-    },
-    {
-      "description": "Gold",
-      "proName": "COMEX:GC1!"
-    },
-    {
-      "description": "Natural Gas",
-      "proName": "NYMEX:NG1!"
-    },
-    {
-      "description": "Crude Oil",
-      "proName": "NYMEX:CL1!"
-    },
-    {
-      "description": "Dollar",
-      "proName": "CAPITALCOM:DXY"
-    },
-    {
-      "description": "Nvidia",
-      "proName": "NASDAQ:NVDA"
-    },
-    {
-      "description": "Tesla",
-      "proName": "NASDAQ:TSLA"
+      "proName": "OANDA:GBPUSD",
+      "title": "GBPUSD"
     }
   ],
-  "showSymbolLogo": true,
-  "isTransparent": false,
-  "displayMode": "compact",
   "colorTheme": "light",
-  "locale": "en"
+  "locale": "en",
+  "largeChartUrl": "",
+  "isTransparent": false,
+  "showSymbolLogo": true,
+  "displayMode": "compact"
 }
   </script>
 </div>
